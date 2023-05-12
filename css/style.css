@@ -1,0 +1,107 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+#tree svg {
+  height: 500px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+.hidden {
+  display: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: yellow;
+}
+/* profil */
+.profil h2 {
+  font-weight: 100;
+}
+.profil h2 span,
+.visimisi h2 span,
+.visimisi h2 span,
+.struktur h2 span,
+.berita h2 span,
+.galleri h2 span,
+.jadwalkajian h2 span,
+.kontak h2 span {
+  font-weight: 600;
+  color: #33cc33;
+  letter-spacing: 2px;
+}
+.profil p,
+.visimisi p {
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.6;
+}
+/* visi misi */
+.visimisi ul li {
+  list-style: none;
+}
+/* berita */
+.berita p a {
+  text-decoration: none;
+  color: #33cc33;
+}
+.berita p a:hover {
+  color: blue;
+}
+/* gallery */
+.galleri .col-md-4 a img {
+  height: 270px;
+  width: 356px;
+}
+/* kontak */
+.kontak ul li {
+  list-style: none;
+  margin: 6px 0 6px 0;
+  font-size: 25px;
+}
+.footer {
+  background-color: #33cc33;
+  color: white;
+}
+.footer ul li {
+  list-style: none;
+  margin: 6px 0 6px 0;
+  font-size: 15px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer ul li a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+.footer ul li a i {
+  font-size: 30px;
+  color: white;
+  margin: 3px;
+}
+.footer ul li a i:hover {
+  color: yellow;
+}
+
+@media (max-width: 450px) {
+  .carousel .carousel-inner .carousel-item img {
+    height: 200px;
+  }
+}
