@@ -7,6 +7,10 @@
 html {
   scroll-behavior: smooth;
 }
+.img-circle {
+  width: 100px;
+  border-radius: 150px;
+}
 .back-to-top {
   position: fixed;
   right: 2rem;
